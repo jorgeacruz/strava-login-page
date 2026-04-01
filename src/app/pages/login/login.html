@@ -6,7 +6,16 @@
     secondaryBtnText="Criar conta"
 
 >
-    <form [formGroup]="loginForm">
-        
+    <form [formGroup]="loginForm" class="flex flex-col items-center justify-center ">
+        <app-primary-input 
+            type="email" 
+            FormName="email" 
+            placeholder="Digite seu email"
+        ></app-primary-input>
+        <app-primary-input 
+            type="password" 
+            FormName="password" 
+            placeholder="Digite sua senha"
+        ></app-primary-input>
     </form>
 </app-defaut-login-layout>
