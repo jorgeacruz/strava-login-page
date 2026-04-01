@@ -3,7 +3,7 @@ import { CommonModule, NgOptimizedImage } from '@angular/common';
 
 @Component({
   selector: 'app-defaut-login-layout',
-  imports: [CommonModule, NgOptimizedImage],
+  imports: [CommonModule, ],
   templateUrl: './defaut-login-layout.html',
   styleUrl: './defaut-login-layout.css',
 })

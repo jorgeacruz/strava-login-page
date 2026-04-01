@@ -8,13 +8,15 @@
 >
     <form [formGroup]="loginForm" class="flex flex-col items-center justify-center ">
         <app-primary-input 
-            type="email" 
-            FormName="email" 
+            formControlName="email"
+            inputName="email"
+            type="email"  
             placeholder="Digite seu email"
         ></app-primary-input>
         <app-primary-input 
+            formControlName="password"
+            inputName="password"
             type="password" 
-            FormName="password" 
             placeholder="Digite sua senha"
         ></app-primary-input>
     </form>
