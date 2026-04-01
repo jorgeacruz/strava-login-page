@@ -6,13 +6,13 @@
         <p class="">{{ description}}</p>
         <ng-content></ng-content>
         
-        <button class="bg-white p-2 w-md text-black rounded-sm hover:scale-105 duration-300 cursor-pointer" >{{ primaryBtnText}}</button>
+        <button class="bg-white p-2 w-md text-black rounded-sm hover:scale-105 duration-300 cursor-pointer" (click)="submit()">{{ primaryBtnText}}</button>
         <span class="w-full h-0 border-1-white border"></span>
-        <button class="border border-white p-2 w-md text-white font-bold rounded-md hover:scale-105 duration-300 cursor-pointer" onclick="alert('Here')">{{ secondaryBtnText }}</button>
+        <button class="border border-white p-2 w-md text-white font-bold rounded-md hover:scale-105 duration-300 cursor-pointer" >{{ secondaryBtnText }}</button>
     </section>
 
     <section class="w-full h-screen bg-white flex-col items-center justify-center hidden md:flex">
-        <h1>Welcome Back!</h1>
-        <img/>
+        
+        <img src="https://www.nomeatathlete.com/wp-content/uploads/2012/03/running-feature-image.png" class="w-full h-screen bg-transparent bg-linear-to-bl"/>
     </section>
 </main>

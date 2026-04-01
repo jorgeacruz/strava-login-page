@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, output } from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 
 @Component({
@@ -12,4 +12,10 @@ export class DefautLoginLayout {
   @Input() description: string = '';
   @Input() primaryBtnText: string = '';
   @Input() secondaryBtnText: string = ''; 
+
+  onSubmit = output<void>();
+
+  submit(){
+    this.onSubmit.emit();
+  }
 }

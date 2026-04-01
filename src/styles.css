@@ -5,3 +5,6 @@
     --color-secondary: #FBBF24;
     --color-background: #F3F4F6;
 }
+@font {
+    --font-family: 'Lato', sans-serif;
+}
