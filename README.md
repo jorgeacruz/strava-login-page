@@ -11,7 +11,6 @@
  <a href="#started">Getting Started</a> • 
   <a href="#started">App Routes</a> • 
   <a href="#colab">Collaborators</a> •
- <a href="#contribute">Contribute</a>
 </p>
 
 <h2 id="started"> About</h2>
